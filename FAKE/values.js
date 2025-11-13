@@ -1,37 +1,37 @@
 // values.js
 
 // Основные данные 
-var fio               = "Буров Володимир Михайлович";
-var fio_en            = "Muntian Davyd";
-var birth             = "08.02.2006"; //дата рождения
-var date_give         = "01.02.2024"; //Дата видачи
-var date_out          = "01.02.2034"; // действителен до
-var organ             = "3DEU2"; //орган что выдал документ
-var rnokpp            = "3790808058"; //ИНН
-var uznr              = "20050208-10752"; //Номер записи
-var pass_number       = "008128469"; //номер паспорта
+var fio               = "Корсунович Володимир Романович";
+var fio_en            = "Korsunovych Volodymyr";
+var birth             = "13.01.2001"; //дата рождения
+var date_give         = "19.07.2019"; //Дата видачи
+var date_out          = "19.07.2029"; // действителен до
+var organ             = "1828"; //орган что выдал документ
+var rnokpp            = "3690304179"; //ИНН
+var uznr              = "20010113-07650"; //Номер записи
+var pass_number       = "BH705236"; //номер паспорта
 
-var registeredOn      = "12.12.2017"; //дата регистрации
+var registeredOn      = "26.12.2022"; //дата регистрации
 
 // Прописка
-var legalAdress       = "Одеська область, місто Ізмаїл, провулок Бєлінського, 50"; //Место проживание
-var live              = "Одеська область, місто Ізмаїл"; //Место рождение 
-var bank_adress       = "Одеська область, місто Ізмаїл, провулок Бєлінського, 50"; //Место жительства указано в банке
+var live              = "ЖИТОМИРСЬКА ОБЛ."; //Место рождение 
+var legalAdress       = "УКРАЇНА ЖИТОМИРСЬКА ОБЛАСТЬ КОРОСТЕНСЬКИЙ РАЙОН С-ЩЕ НОВI БIЛОКОРОВИЧI ВУЛ. МОЛОДIЖНА БУД. 7"; //Место проживание
+var bank_adress       = "УКРАЇНА ЖИТОМИРСЬКА ОБЛАСТЬ КОРОСТЕНСЬКИЙ РАЙОН С-ЩЕ НОВI БIЛОКОРОВИЧI ВУЛ. МОЛОДIЖНА БУД. 7"; //Место жительства указано в банке
 
 var sex               = "Ч";
 var sex_en            = "M";
 
 // Данные для Прав
 var rights_categories = "B"; //Категории
-var prava_number      = "AUK713027"; // номер прав
-var prava_date_give   = "10.05.2023"; //Дата выдачи Прав
-var prava_date_out    = "10.05.2053"; //Действителен ДО
-var pravaOrgan        = "4811"; //орган который выдал
+var prava_number      = "AUK798027"; // номер прав
+var prava_date_give   = "15.03.2025"; //Дата выдачи Прав
+var prava_date_out    = "15.03.2027"; //Действителен ДО
+var pravaOrgan        = "1828"; //орган который выдал
 
 // заграник
-var zagran_number     = "PU942925"; //номер загран
-var dateGiveZ         = "01.02.2024"; //выдан загран
-var dateOutZ          = "01.02.2034"; //коньчаеться загран
+var zagran_number     = "FV869793"; //номер загран
+var dateGiveZ         = "19.07.2019"; //выдан загран
+var dateOutZ          = "19.07.2029"; //коньчаеться загран
 
 
 
@@ -59,13 +59,14 @@ var isStudyEnabled    = false;
 
 // Пути к нужным фото    ?timestamp=N   "photo.jpg?timestamp=N" динамически: var url = "photo.jpg?timestamp=" + N;
 
-var photo_passport = "image_2025-10-22_13-29-44.png"; //эДок, паспорт,
-var photo_rights   = "image_2025-10-22_13-29-44.png"; //права
-var photo_students = "image_2025-10-22_13-29-44.png"; //диплом, студ
-var photo_zagran   = "image_2025-10-22_13-29-44.png"; //загран
+var photo_passport = "1.png"; //эДок, паспорт,
+var photo_rights   = "2.png"; //права
+var photo_students = "1.png"; //диплом, студ
+var photo_zagran   = "1.png"; //загран
 
 var signPng           = "sign.png"; //подпись
 // Можно добавить еще, если надо
+
 
 
 
